@@ -56,7 +56,7 @@ const ContactUsPopup = ({ show, onClose }) => {
 
   return (
     <div className="conatct-popup position-fixed top-50 start-50 translate-middle bg-white border border-1 width-40">
-      <div className="">
+      <div className="contact-box">
         <div className="d-flex justify-content-between">
           <h5 className="m-4">Talk to us</h5>
           <img className="m-3" src={Close} alt="close" onClick={onClose} />
@@ -74,9 +74,9 @@ const ContactUsPopup = ({ show, onClose }) => {
                 required
               />
             </div>
-            <div className="row  mt-3 p-3">
+            <div className="row p-3 px-4">
               <input
-                className="col-5 border-0 border-bottom border-2 ms-2 me-3"
+                className="col-lg-5 col-11 mt-3 border-0 border-bottom border-2 "
                 type="text"
                 name="firstName"
                 placeholder="First name*"
@@ -85,7 +85,7 @@ const ContactUsPopup = ({ show, onClose }) => {
                 required
               />
               <input
-                className="col-5 border-0 border-bottom border-2 "
+                className="col-lg-5 col-11 mt-3 border-0 border-bottom border-2 "
                 type="text"
                 name="lastName"
                 placeholder="Last name"

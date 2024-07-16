@@ -1,4 +1,4 @@
-.font{
+.font {
   font: normal normal 15px Poppins;
 }
 .color-red {
@@ -41,12 +41,11 @@
   height: 600px;
 }
 
-
 @media (max-width: 376px) {
   .landing-page {
     margin-top: 25px;
   }
-  .hero-section{
+  .hero-section {
     display: flex;
     justify-content: center;
   }
@@ -83,11 +82,11 @@
 
 /* ********************************************Contact us Popup ***************************************** */
 
-.width-40{
+.width-40 {
   width: 40%;
 }
 
-.conatct-popup{
+.conatct-popup {
   z-index: 4;
 }
 
@@ -98,16 +97,21 @@
   border: none;
 }
 
+@media (max-width: 376px){
+  .conatct-popup {
+    width: 90%;
+  }
+}
+
 /* ******************************************services**************************************************** */
 
-
-.landing-page .services img{
+.landing-page .services img {
   width: 20%;
   margin: 10px;
 }
 
-.landing-page .services .img-container{
-  
+.hi {
+  z-index: 1000;
 }
 
 .img-container {
@@ -123,7 +127,7 @@
   animation-play-state: running;
 }
 
-.img-container:hover img{
+.img-container:hover img {
   animation-play-state: paused;
 }
 
@@ -137,4 +141,79 @@
   100% {
     transform: translateX(-100%);
   }
+}
+
+/* *****************************************Heightlights*********************************** */
+
+.heighlights {
+  text-align: center;
+}
+
+.heighlights .card1 {
+  text-align: start;
+}
+
+.heighlights .card1 img {
+  width: 50px;
+}
+
+.heighlights-card {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 376px){
+
+  .heighlights-card {
+    display:grid;
+    justify-content: center;
+  }
+
+  .heighlights .card1 {
+    margin-top: 20px;
+  }
+}
+
+/* *********************************************projects********************************* */
+
+.projects {
+  text-align: center;
+}
+
+.project-card:hover {
+  background-color: #ff3147;
+}
+
+.projects .main-image {
+  width: 500px;
+  height: 400px;
+}
+
+/* *************************************************growth********************************************** */
+
+.growth {
+  text-align: center;
+}
+
+/* .growth-card {
+  width: 200px;
+} */
+.growth-card:hover {
+  box-shadow: 5px 2px 5px #dbd9d9;
+}
+
+@media (max-width: 376px) {
+  .growth-card {
+  width: 90px;
+  }
+}
+/* ********************************************feedback******************************************** */
+
+.feedback {
+  text-align: center;
+}
+
+.footer {
+  height: 170px;
+  background-color: #ff3147;
 }
