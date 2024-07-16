@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fyle-assg/static/css/main.09f127e6.css",
-    "main.js": "/fyle-assg/static/js/main.200bceb2.js",
-    "static/js/453.35363654.chunk.js": "/fyle-assg/static/js/453.35363654.chunk.js",
+    "main.js": "/fyle-assg/static/js/main.ea79d099.js",
+    "static/js/453.061bf199.chunk.js": "/fyle-assg/static/js/453.061bf199.chunk.js",
     "static/media/image.png": "/fyle-assg/static/media/image.97a89700e50cd1065041.png",
     "static/media/hero.png": "/fyle-assg/static/media/hero.414e5ec43fd4a0e6bf96.png",
     "static/media/3.png": "/fyle-assg/static/media/3.82316318fdaa440340e7.png",
@@ -20,11 +20,11 @@
     "static/media/Path 4402.svg": "/fyle-assg/static/media/Path 4402.97b991815dabd433bc8ce0e0abcbf49b.svg",
     "static/media/x.svg": "/fyle-assg/static/media/x.8a96217de6ece9399335a88273932ef7.svg",
     "main.09f127e6.css.map": "/fyle-assg/static/css/main.09f127e6.css.map",
-    "main.200bceb2.js.map": "/fyle-assg/static/js/main.200bceb2.js.map",
-    "453.35363654.chunk.js.map": "/fyle-assg/static/js/453.35363654.chunk.js.map"
+    "main.ea79d099.js.map": "/fyle-assg/static/js/main.ea79d099.js.map",
+    "453.061bf199.chunk.js.map": "/fyle-assg/static/js/453.061bf199.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09f127e6.css",
-    "static/js/main.200bceb2.js"
+    "static/js/main.ea79d099.js"
   ]
 }
